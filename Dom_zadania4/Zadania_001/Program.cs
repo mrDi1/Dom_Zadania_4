@@ -14,31 +14,20 @@
 // int i = Math.Pow(5, 3);
 // То будет ошибка, поэтому нужно конвертация в целое число.
 
-int DlinMass = 10;
-int[] a = new int[DlinMass];
-Console.Write("Массив: ");
-for (int i = 0; i < a.Length; i++)
-{
-    Console.Write("{0} ", i + 1);
-}
-Console.WriteLine();
-
-
-
-
-// int x = 5;
-// int stepen = 4;
-// Console.WriteLine("5^4 = " + Math.Pow(x, stepen));
-
-// int i = Convert.ToInt32(Math.Pow(x, stepen));
-// Console.WriteLine(i);
-
-
-// int[] nums = new int[stepen];                   // создаем массив с количеством stepen
-
-// int[] numbers = { 1, 2, 3, 4, 5 };
-// for (int i = 0; i < numbers.Length; i++)
+// int DlinMass = 10;
+// int[] a = new int[DlinMass];
+// Console.Write("Массив: ");
+// for (int i = 0; i < a.Length; i++)
 // {
-//     numbers[i] = numbers[i] * 2;
-//     Console.WriteLine(numbers[i]);
+//     Console.Write("{0} ", i + 1);
 // }
+// Console.WriteLine();
+
+
+int x = 5;
+int stepen = 4;
+Console.WriteLine("5^4 = " + Math.Pow(x, stepen));
+
+int i = Convert.ToInt32(Math.Pow(x, stepen));
+Console.WriteLine(i);
+
